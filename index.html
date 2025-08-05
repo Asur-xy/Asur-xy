@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ultra-Modern Tech Store</title>
+  <!-- Typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 3D Canvas Background -->
+  <canvas id="bg"></canvas>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">Tech<span>Store</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Elevate Your <span>Tech</span> Experience</h1>
+      <p>Premium gadgets & accessories curated for professionals.</p>
+      <a href="#products" class="btn primary-btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Products Preview -->
+  <section id="products" class="products-section">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="products-grid">
+      <!-- Product cards – replace placeholders with actual data -->
+      <article class="product-card">
+        <img src="https://placehold.co/300x200?text=Product+1" alt="Product 1" />
+        <h3>Wireless Headphones</h3>
+        <p class="price">$199</p>
+      </article>
+      <article class="product-card">
+        <img src="https://placehold.co/300x200?text=Product+2" alt="Product 2" />
+        <h3>Mechanical Keyboard</h3>
+        <p class="price">$149</p>
+      </article>
+      <article class="product-card">
+        <img src="https://placehold.co/300x200?text=Product+3" alt="Product 3" />
+        <h3>Ultra-HD Monitor</h3>
+        <p class="price">$499</p>
+      </article>
+    </div>
+    <div class="center">
+      <a href="#" class="btn outline-btn">View All Products</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="about-content">
+      <h2 class="section-title">About Us</h2>
+      <p>
+        At TechStore, we bring you the latest innovations in consumer technology
+        with a focus on quality, performance, and minimalist design.
+      </p>
+      <p>
+        Our curated selection ensures professionals have the tools they need to
+        excel in a fast-paced digital world.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Get in Touch</h2>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary-btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> TechStore. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
